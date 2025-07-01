@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 600px;
+}
+
+.result {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.btns {
+    display: flex;
+}
+
+.btn-add button {
+  width: 100px;
+  height: 50px;
+  background-color: mediumseagreen;
+  border-radius: 10px;
+  margin: 3px;
+}
+
+.btn-minus button {
+  width: 100px;
+  height: 50px;
+  background-color: lightsalmon;
+  border-radius: 10px;
+  margin: 3px;
+}
+
+.btn-reset button {
+  width: 100px;
+  height: 50px;
+  background-color: lightslategray;
+  border-radius: 10px;
+  margin: 3px;
+}
